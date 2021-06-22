@@ -8,7 +8,7 @@ import googleIconImg from '../assets/images/google-icon.svg';
 import { Button } from '../components/Button';
 
 import '../styles/auth.scss';
-import { AuthContext } from '../App';
+import { AuthContext } from '../contexts/AuthContext';
 
 export function Home() {
   const history = useHistory();
